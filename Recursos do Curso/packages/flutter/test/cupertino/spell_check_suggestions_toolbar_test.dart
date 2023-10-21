@@ -61,7 +61,11 @@ void main() {
     expect(labels, isNot(contains('yeller')));
   });
 
+<<<<<<< HEAD:Recursos do Curso/packages/flutter/test/cupertino/spell_check_suggestions_toolbar_test.dart
   testWidgets('buildButtonItems builds a "No Replacements Found" button when no suggestions', (WidgetTester tester) async {
+=======
+  testWidgets('buildButtonItems builds a disabled "No Replacements Found" button when no suggestions', (WidgetTester tester) async {
+>>>>>>> 12fccda598477eddd19f93040a1dba24f915b9be:packages/flutter/test/cupertino/spell_check_suggestions_toolbar_test.dart
     await tester.pumpWidget(
       CupertinoApp(
         home: _FakeEditableText(),
@@ -73,8 +77,14 @@ void main() {
         CupertinoSpellCheckSuggestionsToolbar.buildButtonItems(editableTextState);
 
     expect(buttonItems, isNotNull);
+<<<<<<< HEAD:Recursos do Curso/packages/flutter/test/cupertino/spell_check_suggestions_toolbar_test.dart
     expect(buttonItems!.length, 1);
     expect(buttonItems.first.label, 'No Replacements Found');
+=======
+    expect(buttonItems, hasLength(1));
+    expect(buttonItems!.first.label, 'No Replacements Found');
+    expect(buttonItems.first.onPressed, isNull);
+>>>>>>> 12fccda598477eddd19f93040a1dba24f915b9be:packages/flutter/test/cupertino/spell_check_suggestions_toolbar_test.dart
   });
 }
 

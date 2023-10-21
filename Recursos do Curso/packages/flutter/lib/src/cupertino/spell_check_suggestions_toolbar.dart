@@ -82,7 +82,11 @@ class CupertinoSpellCheckSuggestionsToolbar extends StatelessWidget {
           CupertinoLocalizations.of(editableTextState.context);
       return <ContextMenuButtonItem>[
         ContextMenuButtonItem(
+<<<<<<< HEAD:Recursos do Curso/packages/flutter/lib/src/cupertino/spell_check_suggestions_toolbar.dart
           onPressed: () {},
+=======
+          onPressed: null,
+>>>>>>> 12fccda598477eddd19f93040a1dba24f915b9be:packages/flutter/lib/src/cupertino/spell_check_suggestions_toolbar.dart
           label: localizations.noSpellCheckReplacementsLabel,
         )
       ];

@@ -28,9 +28,13 @@
   "cutButtonLabel": "Wytnij",
   "copyButtonLabel": "Kopiuj",
   "pasteButtonLabel": "Wklej",
-  "selectAllButtonLabel": "Wybierz wszystkie",
+  "selectAllButtonLabel": "Zaznacz wszystko",
   "tabSemanticsLabel": "Karta $tabIndex z $tabCount",
   "modalBarrierDismissLabel": "Zamknij",
   "searchTextFieldPlaceholderLabel": "Szukaj",
+<<<<<<< HEAD:Recursos do Curso/packages/flutter_localizations/lib/src/l10n/cupertino_pl.arb
   "noSpellCheckReplacementsLabel": "No Replacements Found"
+=======
+  "noSpellCheckReplacementsLabel": "Nie znaleziono zastąpień"
+>>>>>>> 12fccda598477eddd19f93040a1dba24f915b9be:packages/flutter_localizations/lib/src/l10n/cupertino_pl.arb
 }
